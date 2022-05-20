@@ -1,8 +1,8 @@
 <h1 align="center">
   <br>
-    <a href="https://github.com/Nes15442/Proyecto1_Web">
-      <img src="https://www.atodoburrito.com/img/menu-logo.png" alt="A Todo Burrito - Clon" width=128">
-    </a>
+  <a href="https://github.com/Nes15442/Proyecto1_Web">
+    <img src="https://www.atodoburrito.com/img/menu-logo.png" alt="A Todo Burrito - Clon" width=128">
+  </a>
   <br>
   <br>
   Proyecto#1: Sistemas y Tecnologias Web
@@ -32,7 +32,7 @@ En este proyecto se implementan las siguientes tecnologías
 ## Getting started
 
 1. Has un clon de este repositorio con git
-2. Ejecute `yarn install` para instalar las dependencias del proyecto.<br />
+2. Ejecute `yarn` para instalar las dependencias del proyecto.<br />
 3. Ejecute `yarn dev` para iniciar un dev server en `http://localhost:3000`.
 
 ## Commands
