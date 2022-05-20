@@ -5,7 +5,7 @@ Clon de la pagina: https://www.atodoburrito.com/
 
 <h1 align="center">
 <br>
-  <a href="https://github.com/Nes15442/Proyecto1_Web"><img src="https://www.atodoburrito.com/img/menu" alt="A Todo Burrito - Clon" width=128"></a>
+  <a href="https://github.com/Nes15442/Proyecto1_Web"><img src="https://www.atodoburrito.com/img/menu.png" alt="A Todo Burrito - Clon" width=128"></a>
 <br>
 <br>
 A Todo Burrito
