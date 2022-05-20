@@ -25,14 +25,15 @@ las de implementación de Frontend con React.js
 En este proyecto se implementan las siguientes tecnologías
 
 - ⚛ **React** — 18.1.0
+- 💎 **CSS** — Estilo de componentes, CSS, Scss
+- 🗃 **Yarn** — package manager.
 - 🚀 **Vite**  — JSX transpiling, Hot Reaload, src debugging
-- 💎 **CSS** — Estilo de componentes, CSS, Sass
 - ✅  **Lint** — ESlint - Airbnb config
 
 ## Getting started
 
 1. Has un clon de este repositorio con git
-2. Ejecute `yarn` para instalar las dependencias del proyecto.<br />
+2. Ejecute `yarn` para instalar las dependencias del proyecto.
 3. Ejecute `yarn dev` para iniciar un dev server en `http://localhost:3000`.
 
 ## Commands

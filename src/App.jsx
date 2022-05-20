@@ -1,46 +1,21 @@
-import { useState } from 'react'
-import logo from './images/logo.svg'
-import './css/App.css'
+import React, { useState, useEffect } from 'react'
+import './css/App.scss'
 
 const App = () => {
-  const [count, setCount] = useState(0)
+  console.log('hola')
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React!</p>
-        <p>
-          <button type="button" onClick={() => setCount((count1) => count1 + 1)}>
-            count is:
-            {count}
-          </button>
-        </p>
-        <p>
-          Edit
-          <code>App.jsx</code>
-          and save to test HMR updates.
-        </p>
-        <p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          {' | '}
-          <a
-            className="App-link"
-            href="https://vitejs.dev/guide/features.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Vite Docs
-          </a>
-        </p>
-      </header>
+      <div className="floating-button-container"> floating menu </div>
+      <div className="side-menu"> side nav </div>
+      <div className="main-menu"> main gif  </div>
+      <div className="rotate-menu"> carousell </div>
+      <div className="grafity"> grafity banner </div>
+      <div className="merch"> merch </div>
+      <div className="contact"> contact </div>
+      <div className="services"> services </div>
+      <div className="social"> social </div>
+      <div className="footer"> footer </div>
     </div>
   )
 }
