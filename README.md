@@ -25,7 +25,7 @@ las de implementación de Frontend con React.js
 En este proyecto se implementan las siguientes tecnologías
 
 - ⚛ **React** — 18.1.0
-- 🚀 **Vite**  — Hot Reloading, Code Splitting, Optimized Build
+- 🚀 **Vite**  — JSX transpiling, Hot Reaload, src debugging
 - 💎 **CSS** — Estilo de componentes, CSS, Sass
 - ✅  **Lint** — ESlint - Airbnb config
 
