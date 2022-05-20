@@ -5,16 +5,18 @@ Clon de la pagina: https://www.atodoburrito.com/
 
 <h1 align="center">
 <br>
-  <a href="https://github.com/Nes15442/Proyecto1_Web"><img src="https://www.atodoburrito.com/img/menu.png" alt="A Todo Burrito - Clon" width=128"></a>
+  <a href="https://github.com/Nes15442/Proyecto1_Web">
+    <img src="https://www.atodoburrito.com/img/menu-logo.png" alt="A Todo Burrito - Clon" width=128">
+  </a>
 <br>
 <br>
 A Todo Burrito
 </h1>
 
 <p align="center">
-    Clon de Página: A Todo Burrito
-    <br>
-    https://www.atodoburrito.com/
+  Clon de Página: A Todo Burrito
+  <br>
+  https://www.atodoburrito.com/
 </p>
 <hr />
 
@@ -34,10 +36,9 @@ En este proyecto se implementan las siguientes tecnologías
 
 ## Getting started
 
-1. Clone this repo using `https://github.com/leonardomso/react-bolt.git`
-2. Move to the appropriate directory: `cd react-bolt`.<br />
-3. Run `yarn` or `npm install` to install dependencies.<br />
-4. Run `npm start` to see the example app at `http://localhost:8080`.
+1. Has un clon de este repositorio con git
+2. Ejecute `yarn install` para instalar las dependencias del proyecto.<br />
+3. Ejecute `yarn dev` para iniciar un dev server en `http://localhost:3000`.
 
 ## Commands
 
