@@ -1,16 +1,11 @@
-# Proyecto1_Web
-Clon de la pagina: https://www.atodoburrito.com/
-
-
-
 <h1 align="center">
-<br>
-  <a href="https://github.com/Nes15442/Proyecto1_Web">
-    <img src="https://www.atodoburrito.com/img/menu-logo.png" alt="A Todo Burrito - Clon" width=128">
-  </a>
-<br>
-<br>
-A Todo Burrito
+  <br>
+    <a href="https://github.com/Nes15442/Proyecto1_Web">
+      <img src="https://www.atodoburrito.com/img/menu-logo.png" alt="A Todo Burrito - Clon" width=128">
+    </a>
+  <br>
+  <br>
+  Proyecto#1: Sistemas y Tecnologias Web
 </h1>
 
 <p align="center">
