@@ -3,6 +3,7 @@ import './css/App.scss'
 import SideMenu from './components/SideMenu'
 import MenuHeader from './components/MenuHeader'
 import Banner from './components/Banner'
+import WhatsappB from './components/WhatsappB'
 
 const App = () => {
   const [sideMenu, setSideMenu] = useState(false)
@@ -20,6 +21,7 @@ const App = () => {
       <div className="services"> services </div>
       <div className="social"> social </div>
       <div className="footer"> footer </div>
+      <WhatsappB />
     </div>
   )
 }

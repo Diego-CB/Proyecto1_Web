@@ -1,5 +1,4 @@
 @import "./variables.scss";
-@import url(//db.onlinewebfonts.com/c/855b04ee8867034db6207f07a432661b?family=Knockout);
 
 .main-menu {
   height: 100vh;
@@ -12,7 +11,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
 
   .center-add {
@@ -29,9 +27,7 @@
       color: white;
       font-weight: 400;
 
-      span {
-        color: $app-yellow;
-      }
+      span {color: $app-yellow}
     }
 
     img {
@@ -40,5 +36,6 @@
       position: relative;
       bottom: 50px;
     }
+    img:hover {cursor: pointer;}
   }
 }

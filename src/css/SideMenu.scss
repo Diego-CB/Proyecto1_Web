@@ -6,9 +6,11 @@
   width: 350px;
   height: 100vh;
   background-color: $app-yellow;
-  transition: left ease-in-out 500ms;
+  transition: left ease-out .3s;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 
   .top-menu {
     display: flex;
@@ -36,9 +38,51 @@
         height: 14px;
       }
     }
+    .exit-menu:hover {cursor: pointer}
+  }
 
+  .side-nav {
+    margin-top: 29px;
+    display: flex;
+    width: 350px;
+
+    ul {
+      list-style: none;
+      width: 350px;
+
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      padding: 0;
+      margin: 0;
+      width: 270px;
+      height: 27px;
+      margin-left: 40px;
+      text-align: left;
+      font-size: 23px;
+      line-height: 22px;
+      color: black;
+      font-family: 'Knockout 50 Welterweight', sans-serif;
+
+      img {
+        width: 25px;
+        height: 25px;
+      }
+    }
+
+    li:hover {cursor: pointer;}
+
+    hr {
+      width: 270px;
+      background-color: black;
+      border-width: 0;
+      border: none;
+      height: 1px;
+    }
   }
 }
 
 .side-menu-shown {left: 0}
-.side-menu-hide {left: -100%}
+.side-menu-hide {left: -350px}
