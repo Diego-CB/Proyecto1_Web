@@ -1,0 +1,44 @@
+@import "./variables.scss";
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  width: 350px;
+  height: 100vh;
+  background-color: $app-yellow;
+  transition: left ease-in-out 500ms;
+  display: flex;
+  justify-content: center;
+
+  .top-menu {
+    display: flex;
+    justify-content: space-between;
+    width: 94%;
+    margin-top: 10px;
+  
+    img {
+      width: 100px;
+      height: 101px;
+    }
+
+    .exit-menu {
+      width: fit-content;
+      height: fit-content;
+      border: none;
+      background: transparent;
+
+      position: relative;
+      right: 10px;
+      top: 14px;
+
+      img {
+        width:  14px;
+        height: 14px;
+      }
+    }
+
+  }
+}
+
+.side-menu-shown {left: 0}
+.side-menu-hide {left: -100%}

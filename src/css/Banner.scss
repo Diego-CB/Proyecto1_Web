@@ -1,0 +1,44 @@
+@import "./variables.scss";
+@import url(//db.onlinewebfonts.com/c/855b04ee8867034db6207f07a432661b?family=Knockout);
+
+.main-menu {
+  height: 100vh;
+  overflow: hidden;
+
+  video {
+    height: 100%;
+    object-fit: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .center-add {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    h2 {
+      font-size: 3.5rem;
+      font-family: 'Knockout', sans-serif;
+      color: white;
+      font-weight: 400;
+
+      span {
+        color: $app-yellow;
+      }
+    }
+
+    img {
+      width: 110px;
+      height: 29.4833px;
+      position: relative;
+      bottom: 50px;
+    }
+  }
+}

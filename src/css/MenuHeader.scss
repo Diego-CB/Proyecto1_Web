@@ -1,0 +1,43 @@
+
+.menu-header {
+  width: 100px;
+  height: fit-content;
+  position: relative;
+  bottom: calc(100vh - 9px);
+  left: 46px;
+  display: block;
+
+  .logo-button {
+    width: 100px;
+    height: 101px;
+    background: transparent;
+    border-radius: 50%;
+    border: none;
+
+    img {
+      width: 100px;
+      height: 101px;
+    }
+  }
+
+
+  .toggle-side-menu {
+    margin-top: 5px;
+    width: 100px;
+    height: 33.5px;
+    background-color: transparent;
+    border: none;
+  
+    img {
+      width: 100px;
+      height: 33.5px;
+    }
+  }
+  
+  .toggle-side-menu:hover,
+  .logo-button:hover
+  {
+    cursor: pointer;
+    img {opacity: 0.8}
+  }
+}

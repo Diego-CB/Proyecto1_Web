@@ -1,3 +1,5 @@
+@import "./variables.scss";
+
 .App {
   width: calc(100vw - 17px);
   height: fit-content;
@@ -9,11 +11,6 @@
 
   * {
     width: 100%;
-  }
-
-  .main-menu {
-    height: 100vh;
-    background-color: yellow;
   }
 
   .rotate-menu {
@@ -51,5 +48,6 @@
     background-color: grey;
     height: 100px;
   }
+
 }
 

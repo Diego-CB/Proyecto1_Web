@@ -1,14 +1,18 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './css/App.scss'
+import SideMenu from './components/SideMenu'
+import MenuHeader from './components/MenuHeader'
+import Banner from './components/Banner'
 
 const App = () => {
-  console.log('hola')
+  const [sideMenu, setSideMenu] = useState(false)
 
   return (
     <div className="App">
-      <div className="floating-button-container"> floating menu </div>
-      <div className="side-menu"> side nav </div>
-      <div className="main-menu"> main gif  </div>
+      <Banner />
+      <MenuHeader sideMenu={sideMenu} setSideMenu={setSideMenu} />
+      <SideMenu sideMenu={sideMenu} setSideMenu={setSideMenu} />
+
       <div className="rotate-menu"> carousell </div>
       <div className="grafity"> grafity banner </div>
       <div className="merch"> merch </div>

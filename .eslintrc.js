@@ -35,5 +35,9 @@ module.exports = {
       allow: ['warn', 'error'],
     }],
     'consistent-return': 0,
+    'jsx-a11y/media-has-caption': [ 0, {
+      "video": [ "Video" ],
+      "track": [ "Track" ],
+    }],
   },
 }
