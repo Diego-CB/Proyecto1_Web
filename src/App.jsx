@@ -1,17 +1,17 @@
 import React, { useState } from 'react'
 import './css/App.scss'
 
-import SideMenu from './components/SideMenu'
-import MenuHeader from './components/MenuHeader'
-import Banner from './components/Banner'
-import WhatsappB from './components/WhatsappB'
-import Carussel from './components/Carussel/Carussel'
-import Grafity from './components/Grafity'
-import Merch from './components/Merch'
-import Delivery from './components/Delivery'
-import Services from './components/Services'
-import Social from './components/Social'
-import Footer from './components/Footer'
+import SideMenu from './components/SideMenu.jsx'
+import MenuHeader from './components/MenuHeader.jsx'
+import Banner from './components/Banner.jsx'
+import WhatsappB from './components/WhatsappB.jsx'
+import Carussel from './components/Carussel/Carussel.jsx'
+import Grafity from './components/Grafity.jsx'
+import Merch from './components/Merch.jsx'
+import Delivery from './components/Delivery.jsx'
+import Services from './components/Services.jsx'
+import Social from './components/Social.jsx'
+import Footer from './components/Footer.jsx'
 
 const App = () => {
   const [sideMenu, setSideMenu] = useState(false)

@@ -8,9 +8,18 @@ pnpm-debug.log*
 lerna-debug.log*
 
 node_modules
-dist
-dist-ssr
-*.local
+dist/*.png
+dist/*.jpg
+dist/*.mp4
+dist/*.gif
+dist/*.svg
+dist/*.js
+dist/*.css
+dist/*.eot
+dist/*.woff
+dist/*.woff2
+dist/*.ttf
+dist/*.txt
 
 # Editor directories and files
 .vscode/*

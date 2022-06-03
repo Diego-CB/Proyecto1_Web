@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import '../../css/Carussel.scss'
 
-import ArrowButton from './ArrowButton'
-import Slider from './Slider'
+import ArrowButton from './ArrowButton.jsx'
+import Slider from './Slider.jsx'
 
 const Carussel = () => {
   const [isMoving, setIsMoving] = useState(false)

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PropTypes from 'prop-types'
-import Burrito from './Burrito'
+import Burrito from './Burrito.jsx'
 
 import b1 from '../../assets/images/slider/b1.jpg'
 import b2 from '../../assets/images/slider/b2.jpg'
