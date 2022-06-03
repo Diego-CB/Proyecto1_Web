@@ -16,6 +16,7 @@ const Footer = () => (
       </div>
       <p className="footer-cr">
         Alimentos Pura Delicia, S.A. Todos los derechos 2022
+        <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
       </p>
     </div>
   </footer>
