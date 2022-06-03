@@ -20,6 +20,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+ 
+    &:hover {
+      cursor: pointer;
+      fill: $wa-hover;
+      img {fill: $wa-hover}
+    }
   }
 
   img {
@@ -29,9 +35,4 @@
     color: white;
   }
 
-  span:hover {
-    cursor: pointer;
-    fill: $wa-hover;
-    img {fill: $wa-hover}
-  }
 }

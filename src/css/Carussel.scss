@@ -1,0 +1,121 @@
+@import "./variables.scss";
+
+.carusel-container {
+  background: white;
+  height: 570px;
+  display: grid;
+  grid-template-rows: 440px 100px;
+
+  .carussel {
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+    grid-template-rows: 400px;
+    margin-top: 40px;
+  }
+}
+
+
+@media (max-width: 1500px) {
+  .carussel {
+    grid-template-columns: 1fr 1200px 1fr;
+  }
+}
+
+
+.arrow-container {
+  display: grid;
+  align-items: center;
+
+  .arrow {
+    width: 30px;
+    border: none;
+    background-color: transparent;  
+    
+    img {
+      width: 20px;
+      height: 48.5px;
+    }
+
+    &:hover{cursor: pointer}
+  }
+
+  .arrow-left {
+    position: relative;
+    left: 50%;
+  }
+}
+
+.slider-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  button {
+    width: 168.5px;
+    height: 40px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: $app-dark-yellow;
+    position: relative;
+    top: 18px;
+
+    font-size: 1.6rem;
+    line-height: 38px;
+    font-family: 'Knockout52', sans-serif;
+
+    transition: .1s ease-in-out;
+    transition-property: color, background-color, border-color;
+    
+    &:hover {
+      background-color: white;
+      border: 1px solid black;
+      color: #333;
+      cursor: pointer;
+    }
+  }
+
+}
+
+.slider-container {
+  
+  .slider {
+    position: relative;
+    top: 20px;
+    height: 100%;
+    overflow: hidden;
+   
+    ul {
+      height: 100%;
+      list-style: none;
+      display: flex;
+      flex-wrap: nowrap;
+
+      position: relative;
+      bottom: 16px;
+      right: 40px;
+
+      column-gap: 40px;
+
+      transition: transform 420ms ease;
+
+      li {
+        img {
+          height: 100%;
+          width: 270px;
+        }
+
+        h2 {
+          position: relative;
+          font-size: 2rem;
+          line-height: 1.3;
+          font-weight: 400;
+          color: white;
+          font-family: 'Knockout', sans-serif;
+        }
+
+        .header-burrito {bottom: 415px}
+        .footer-burrito {bottom: 160px}
+      }
+    }
+  }
+}

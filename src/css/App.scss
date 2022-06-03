@@ -2,36 +2,19 @@
 
 .App {
   width: calc(100vw - 17px);
-  height: fit-content;
+  height: calc(100vh + 2955px);
   text-align: center;
-
   background-color: skyblue;
-
   display: block;
+  overflow: hidden;
 
   * {
     width: 100%;
   }
 
-  .rotate-menu {
-    background-color: blue;
-    height: 40vw;
-  }
-
-  .grafity {
-    background-color: red;
-    height: 60vw;
-  }
-  
-  .merch {
-    background-color: yellow;
-    height: 60vw;
-  }
-  
-  .contact {
-    background-color: black;
-    height: 24vw;
-    color: white;
+  .not-instant-show {
+    position: relative;
+    bottom: 150px;
   }
   
   .services {

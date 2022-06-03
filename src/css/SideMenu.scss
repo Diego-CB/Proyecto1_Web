@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
+  z-index: 1000;
 
   .top-menu {
     display: flex;
@@ -37,8 +38,9 @@
         width:  14px;
         height: 14px;
       }
+      
+      &:hover {cursor: pointer}
     }
-    .exit-menu:hover {cursor: pointer}
   }
 
   .side-nav {
@@ -70,9 +72,10 @@
         width: 25px;
         height: 25px;
       }
+      
+      &:hover {cursor: pointer;}
     }
 
-    li:hover {cursor: pointer;}
 
     hr {
       width: 270px;

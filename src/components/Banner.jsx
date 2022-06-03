@@ -4,7 +4,7 @@ import video from '../assets/videos/guacamolero_armado.mp4'
 import ordenar from '../assets/images/home-ordenar.png'
 
 const Banner = () => (
-  <div className="main-menu">
+  <section className="main-menu">
     <video autoPlay loop muted src={video} />
     <div className="center-add">
       <h2>
@@ -15,7 +15,7 @@ const Banner = () => (
       </h2>
       <img src={ordenar} alt="Ordenar" />
     </div>
-  </div>
+  </section>
 )
 
 export default Banner

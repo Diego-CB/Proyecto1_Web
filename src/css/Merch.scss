@@ -1,0 +1,40 @@
+.merch-container {
+  background-color: #FFCF00;
+  height: 533.15px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.merch {
+  height: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: center;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+
+  .merch-banner {
+    margin-left: 40px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+
+  .merch-insta {
+    margin-right: 40px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .insta:hover{cursor: pointer}
+  }
+}

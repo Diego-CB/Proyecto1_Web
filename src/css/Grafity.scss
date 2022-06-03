@@ -1,0 +1,84 @@
+@import "./variables.scss";
+
+.grafity {
+  height: 100vh;
+  background-image: url(../assets/images/grafity/wall.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.grafity-content {
+  width: calc(100vw - 80px);
+  height: calc(100vh - 50px);
+  max-width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grafity-specs {
+  width: 40%;
+  height: 508px;
+  padding-left: 40px;
+
+  img {margin-top: 20px}
+
+  display: grid;
+  grid-template-rows: 1fr 149px;
+}
+
+.grafity-paper {
+  width: 100%;
+  height: auto;
+  background-image: url(../assets/images/grafity/paper.jpg);
+  background-size: cover;
+  
+  * {
+    margin: 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: calc(100% - 80px);
+    text-align: left;
+    font-weight: 400;
+  }
+
+  h1 {
+    color: #333;
+    margin-top: 40px;
+    font-size: 3.25rem;
+    font-family: 'Knockout52', sans-serif;
+    line-height: 1.2;
+  }
+
+  h3 {
+    margin-top: 0;
+    font-family: 'Athelas', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+
+  p {
+    margin-top: 20px;
+    font-size: 19px;
+    font-family: 'Knockout52', sans-serif;
+  }
+}
+
+.grafity-banner {
+  width: 60%;
+  height: 100%;
+  padding-left: 70px;
+
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+  }
+}

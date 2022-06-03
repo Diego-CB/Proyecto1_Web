@@ -1,11 +1,10 @@
 import React from 'react'
 import '../css/WhatsappB.scss'
-import dm from '../assets/images/dm-logo.svg'
 
 const WhatsappB = () => (
   <div className="DM-container">
     <span>
-      <svg 
+      <svg
         width="30"
         height="30"
         viewBox="0 0 20 20"

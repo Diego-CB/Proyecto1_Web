@@ -1,9 +1,14 @@
 import React, { useState } from 'react'
 import './css/App.scss'
+
 import SideMenu from './components/SideMenu'
 import MenuHeader from './components/MenuHeader'
 import Banner from './components/Banner'
 import WhatsappB from './components/WhatsappB'
+import Carussel from './components/Carussel/Carussel'
+import Grafity from './components/Grafity'
+import Merch from './components/Merch'
+import Delivery from './components/Delivery'
 
 const App = () => {
   const [sideMenu, setSideMenu] = useState(false)
@@ -14,13 +19,16 @@ const App = () => {
       <MenuHeader sideMenu={sideMenu} setSideMenu={setSideMenu} />
       <SideMenu sideMenu={sideMenu} setSideMenu={setSideMenu} />
 
-      <div className="rotate-menu"> carousell </div>
-      <div className="grafity"> grafity banner </div>
-      <div className="merch"> merch </div>
-      <div className="contact"> contact </div>
-      <div className="services"> services </div>
-      <div className="social"> social </div>
-      <div className="footer"> footer </div>
+      <div className="not-instant-show">
+        <Carussel />
+        <Grafity />
+        <Merch />
+        <Delivery />
+        <div className="services"> services </div>
+        <div className="social"> social </div>
+        <div className="footer"> footer </div>
+      </div>
+
       <WhatsappB />
     </div>
   )

@@ -1,7 +1,7 @@
 @import "./variables.scss";
 
 .main-menu {
-  height: 100vh;
+  height: calc(100vh + 1px);
   overflow: hidden;
 
   video {
@@ -35,7 +35,7 @@
       height: 29.4833px;
       position: relative;
       bottom: 50px;
+      &:hover {cursor: pointer;}
     }
-    img:hover {cursor: pointer;}
   }
 }
