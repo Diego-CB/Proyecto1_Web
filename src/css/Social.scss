@@ -1,0 +1,25 @@
+@import "./variables.scss";
+
+.social {
+  background-color: white;
+  height: 95px;
+  margin-top: 40px;
+
+  display: flex;
+  justify-content: center;
+
+  h2 {
+    font-family: 'Knockout52', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    width: fit-content;
+    margin-right: 15px;
+  }
+
+  img {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    top: 5px;
+  }
+}

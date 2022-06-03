@@ -10,6 +10,8 @@ import Grafity from './components/Grafity'
 import Merch from './components/Merch'
 import Delivery from './components/Delivery'
 import Services from './components/Services'
+import Social from './components/Social'
+import Footer from './components/Footer'
 
 const App = () => {
   const [sideMenu, setSideMenu] = useState(false)
@@ -26,8 +28,8 @@ const App = () => {
         <Merch />
         <Delivery />
         <Services />
-        <div className="social"> social </div>
-        <div className="footer"> footer </div>
+        <Social />
+        <Footer />
       </div>
 
       <WhatsappB />

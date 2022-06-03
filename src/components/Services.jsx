@@ -11,7 +11,7 @@ const Services = () => (
         </button>
       </div>
       <div className="horarios">
-        <h1 className="e-h1">EVENTOS</h1>
+        <h1 className="e-h1">HORARIOS</h1>
         <div className="info-horarios">
           <div className="services-dias">
             <div className="apertura">11AM - 8PM</div>

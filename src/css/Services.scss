@@ -80,6 +80,7 @@
   .info-horarios {
     height: fit-content;
     display: flex;
+    margin-bottom: 22px;
     
     .services-dias {
   
@@ -90,7 +91,13 @@
 
       justify-content: center;
       align-items: center;
+
+
       .apertura {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         width: 139.267px;
         height: 34.5px;
   
@@ -102,6 +109,7 @@
       }
 
       p {
+        margin-top: 5px;
         width: 100%;
         color: white;
         font-family: 'Knockout52';
