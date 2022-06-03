@@ -29,7 +29,9 @@
   img {
     max-height: 100%;
     width: auto;
+    cursor: pointer;
   }
+
   .delivery-title {
     width: fit-content;
     display: inline-flex;
@@ -42,6 +44,8 @@
       font-size: 6rem;
       line-height: 75px;
     }
+
+    img {cursor: auto;}
   }
 
   .delivery-apps {
@@ -65,7 +69,7 @@
   img {
     height: 63.85px;
     width: 290px;
-    &:hover {cursor: pointer}
+    cursor: pointer
   }
 
   .stars {
@@ -78,6 +82,7 @@
     img {
       height: 100%;
       width: auto;
+      cursor: auto;
     }
     
     p {
