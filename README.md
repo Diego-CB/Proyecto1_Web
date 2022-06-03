@@ -25,22 +25,23 @@ las de implementación de Frontend con React.js
 En este proyecto se implementan las siguientes tecnologías
 
 - ⚛ **React** — 18.1.0
-- 💎 **CSS** — Estilo de componentes, CSS, Scss
-- 🗃 **Yarn** — package manager.
-- 🚀 **Vite**  — JSX transpiling, Hot Reaload, src debugging
-- ✅  **Lint** — ESlint - Airbnb config
+- 🛠 **Babel** — Sintaxis ES6, Airbnb & React/Recommended config, Transpilador para JSX
+- 🚀 **WebPack**  — Transpilación para JSX, Hot Reaload, src debugging
+- 💎 **CSS** — Estilo de componentes, Css, Scss
+- 🗃 **npm** — package manager.
+- ✅ **Lint** — ESlint - Airbnb config
 
 ## Getting started
 
 1. Has un clon de este repositorio con git
-2. Ejecute `yarn` para instalar las dependencias del proyecto.
-3. Ejecute `yarn dev` para iniciar un dev server en `http://localhost:3000`.
+2. Ejecute `npm i` o `npm install` para instalar las dependencias del proyecto.
+3. Ejecute `npm start` para iniciar un dev server en `http://localhost:8080/`.
 
 ## Commands
 
-- `yarn dev` - crea un dev server
-- `yarn build` -crea un build de produccion en la carpeta `dist`
-- `yarn lint` - Ejecuta los chequeos de ESLint
+- `npm start` — crea un dev server
+- `npm run build` — crea un build de produccion en la carpeta `dist`
+- `npm run lint` — Ejecuta los chequeos de ESLint
 
 ## Autor
 

@@ -36,8 +36,8 @@ module.exports = {
     }],
     'consistent-return': 0,
     'jsx-a11y/media-has-caption': [0, {
-      video: [Video],
-      track: [Track],
+      'video': ['Video'],
+      'track': ['Track'],
     }],
     "import/extensions": 0,
   },
