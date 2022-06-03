@@ -1,0 +1,112 @@
+@import "./variables.scss";
+
+.services-container {
+  height: 597.5px;
+  display: flex;
+  justify-content: center;
+
+  .services {
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+
+    * {
+      width: 50%;
+      height: 100%;
+    }
+  }
+}
+
+.eventos {
+  background-image: url(../assets/images/services/eventos.jpg);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+
+  .e-h1 {
+    font-size: 4rem;
+    line-height: 47px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Knockout';
+    height: fit-content;
+  }
+
+  .e-button {
+    width: 160.88px;
+    height: 39.6px;
+    font-family: 'Knockout52';
+    border-radius: 5px;
+    font-size: 1.4rem;
+    border: 1px solid transparent;
+    transition: .1s ease-in-out;
+    transition-property: all;
+    transition-property: color,background-color,border-color;
+
+    margin-bottom: 50px;
+    background-color: #FFC506;
+    color: black;
+
+    &:hover {
+      background-color: transparent;
+      color: white;
+      border: 1px solid white;
+    }
+  }
+}
+
+.horarios {
+  background-image: url(../assets/images/services/horarios.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+
+  .e-h1 {
+    font-size: 4rem;
+    line-height: 47px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Knockout';
+    height: fit-content;
+  }
+
+  .info-horarios {
+    height: fit-content;
+    display: flex;
+    
+    .services-dias {
+  
+      height: fit-content;
+  
+      display: flex;
+      flex-direction: column;
+
+      justify-content: center;
+      align-items: center;
+      .apertura {
+        width: 139.267px;
+        height: 34.5px;
+  
+        font-family: 'Knockout52';
+        border-radius: 5px;
+        font-size: 1.4rem;
+        background-color: #FFC506;
+        color: black;
+      }
+
+      p {
+        width: 100%;
+        color: white;
+        font-family: 'Knockout52';
+        text-align: center;
+      }
+    }
+  }
+}

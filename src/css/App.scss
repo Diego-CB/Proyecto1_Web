@@ -4,7 +4,7 @@
   width: calc(100vw - 17px);
   height: calc(100vh + 2955px);
   text-align: center;
-  background-color: skyblue;
+  background-color: white;
   display: block;
   overflow: hidden;
 
@@ -17,11 +17,6 @@
     bottom: 150px;
   }
   
-  .services {
-    background-color: green;
-    height: 70vh;
-  }
-  
   .social {
     background-color: white;
     height: 120px;
@@ -31,6 +26,5 @@
     background-color: grey;
     height: 100px;
   }
-
 }
 

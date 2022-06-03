@@ -9,6 +9,7 @@ import Carussel from './components/Carussel/Carussel'
 import Grafity from './components/Grafity'
 import Merch from './components/Merch'
 import Delivery from './components/Delivery'
+import Services from './components/Services'
 
 const App = () => {
   const [sideMenu, setSideMenu] = useState(false)
@@ -24,7 +25,7 @@ const App = () => {
         <Grafity />
         <Merch />
         <Delivery />
-        <div className="services"> services </div>
+        <Services />
         <div className="social"> social </div>
         <div className="footer"> footer </div>
       </div>
