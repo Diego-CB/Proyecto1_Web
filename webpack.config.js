@@ -13,9 +13,9 @@ export default {
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          'style-loader', 
-          'css-loader', 
-          'sass-loader'
+          'style-loader',
+          'css-loader',
+          'sass-loader',
         ],
       },
       {
@@ -34,14 +34,3 @@ export default {
     },
   },
 }
-
-/*
-      {
-        test: /\.(svg|png|jpe?g|gif|mp4)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ],
-      },
-*/
